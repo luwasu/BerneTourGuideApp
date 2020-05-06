@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BerneTourGuideApp</string>
+    <string name="accommodation">Accommodation</string>
+    <string name="event">Events</string>
+    <string name="restaurant">Restaurants</string>
+    <string name="attraction">Restaurants</string>
+
+</resources>
