@@ -43,5 +43,4 @@ public class EventFragment extends Fragment {
 
         return rootView;
     }
-
 }
