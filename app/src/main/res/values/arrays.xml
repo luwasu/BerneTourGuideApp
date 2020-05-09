@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_attraction_names">
+        <item>Berne Attraction Title</item>
+        <item>Berne Attraction Title</item>
+        <item>Berne Attraction Title</item>
+        <item>Berne Attraction Title</item>
+        <item>Berne Attraction Title</item>
+        <item>Berne Attraction Title</item>
+    </string-array>
+
+    <string-array name="list_attraction_addresses">
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+    </string-array>
+
+    <string-array name="list_attraction_opening_hours">
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+    </string-array>
+
+    <array name="list_attraction_images">
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+    </array>
+
+    <string-array name="list_event_names">
+        <item>Berne Event Title</item>
+        <item>Berne Event Title</item>
+        <item>Berne Event Title</item>
+        <item>Berne Event Title</item>
+        <item>Berne Event Title</item>
+        <item>Berne Event Title</item>
+    </string-array>
+
+    <string-array name="list_event_addresses">
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+    </string-array>
+
+    <string-array name="list_event_opening_hours">
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+    </string-array>
+
+    <array name="list_event_images">
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+    </array>
+
+    <string-array name="list_accommodation_names">
+        <item>Berne Accommodation Title</item>
+        <item>Berne Accommodation Title</item>
+        <item>Berne Accommodation Title</item>
+        <item>Berne Accommodation Title</item>
+        <item>Berne Accommodation Title</item>
+        <item>Berne Accommodation Title</item>
+    </string-array>
+
+    <string-array name="list_accomodation_addresses">
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+    </string-array>
+
+    <string-array name="list_accomodation_opening_hours">
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+    </string-array>
+
+    <array name="list_accomodation_images">
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+    </array>
+
+    <string-array name="list_restaurant_names">
+        <item>Berne Restaurant Title</item>
+        <item>Berne Restaurant Title</item>
+        <item>Berne Restaurant Title</item>
+        <item>Berne Restaurant Title</item>
+        <item>Berne Restaurant Title</item>
+        <item>Berne Restaurant Title</item>
+    </string-array>
+
+    <string-array name="list_restaurant_addresses">
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Bern, Musterstr. 1</item>
+        <item>3000 Berne, Musterstr. 1</item>
+    </string-array>
+
+    <string-array name="list_restaurant_opening_hours">
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-20:00</item>
+    </string-array>
+
+    <array name="list_restaurant_images">
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+        <item>@drawable/bern</item>
+    </array>
+</resources>
