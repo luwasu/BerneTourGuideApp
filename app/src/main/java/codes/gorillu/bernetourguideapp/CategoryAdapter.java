@@ -8,11 +8,8 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private static final int POSITION_ATTRACTION = 0;
-    private static final int POSITION_EVENT = 1;
-    private static final int POSITION_ACCOMMODATION = 2;
-    private static final int POSITION_RESTAURANT = 3;
-    private static final int NUMBER_OF_POSITIONS = POSITION_RESTAURANT + 1;
+
+    private static int NUM_ITEMS = 4;
 
 
     /**
@@ -25,11 +22,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Create a new {@link CategoryAdapter} object.
      *
-     * @param context is the context of the app
-     * @param fm      is the fragment manager that will keep each fragment's state in the adapter
+     * @param context         is the context of the app
+     * @param fragmentManager is the fragment manager that will keep each fragment's state in the adapter
      */
-    public CategoryAdapter(Context context, FragmentManager fm) {
-        super(fm);
+
+    public CategoryAdapter(FragmentManager fragmentManager, Context context) {
+        super(fragmentManager, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         mContext = context;
     }
 
@@ -38,26 +36,27 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      * Return the {@link Fragment} that should be displayed for the given page number.
      */
 
+
     @Override
     public Fragment getItem(int position) {
-        if (POSITION_ATTRACTION == position) {
+        if (position == 0) {
             return new AttractionFragment();
-        } else if (POSITION_EVENT == position) {
+        } else if (position == 1) {
             return new EventFragment();
-        } else if (POSITION_ACCOMMODATION == position) {
-            return new AccommodationFragment();
-        } else {
+        } else if (position == 2) {
             return new RestaurantFragment();
+        } else {
+            return new AccommodationFragment();
         }
+
     }
 
-    /**
-     * Return the total number of pages.
-     */
+    // Returns total number of pages
     @Override
     public int getCount() {
-        return NUMBER_OF_POSITIONS;
+        return NUM_ITEMS;
     }
+
 
     /**
      * Return attraction fragment titles.
@@ -65,16 +64,17 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (POSITION_ATTRACTION == position) {
+        if (position == 0) {
             return mContext.getString(R.string.attraction);
-        } else if (POSITION_EVENT == position) {
+        } else if (position == 1) {
             return mContext.getString(R.string.event);
-        } else if (POSITION_ACCOMMODATION == 2) {
-            return mContext.getString(R.string.accommodation);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.restaurant);
+        } else {
+            return mContext.getString(R.string.accommodation);
         }
     }
 }
+
 
 
