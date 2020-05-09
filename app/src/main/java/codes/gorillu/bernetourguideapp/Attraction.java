@@ -22,8 +22,8 @@ public class Attraction {
 
     }
 
-    public Attraction(FragmentActivity activity, ArrayList<Attraction> attractions) {
-    }
+//    public Attraction(FragmentActivity activity, ArrayList<Attraction> attractions) {
+//    }
 
 
     public String getAttractionName() {
