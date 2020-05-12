@@ -35,7 +35,7 @@ public class AttractionFragment extends Fragment {
             accommodations.add(newAttraction);
         }
 
-        AttractionAdapter adapter = new AttractionAdapter(getActivity(), accommodations,R.color.category_colors);
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), accommodations,R.color.category_attraction);
 
         ListView listView = rootView.findViewById(R.id.list_local_attraction);
 

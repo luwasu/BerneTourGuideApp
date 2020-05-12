@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
-    <color name="colorPrimary">#607D8B</color>
-    <color name="colorPrimaryDark">#455A64</color>
-    <color name="colorPrimaryLight">#CFD8DC</color>
+    <color name="colorPrimary">#064270</color>
+    <color name="colorPrimaryDark">#064270</color>
+    <color name="colorPrimaryLight">#c0c5d2</color>
     <color name="colorAccent">#9E9E9E</color>
-    <color name="colorPrimaryText">#212121</color>
-    <color name="colorSecondaryText">#757575</color>
-
-    <!-- Background color for app -->
-    <color name="tan_background">#FFF7DA</color>
+    <color name="colorPrimaryText">@android:color/white</color>
+    <color name="colorSecondaryText">#B4D8DC</color>
 
 
-    <!-- Background color for the numbers category -->
-    <color name="category_numbers">#FD8E09</color>
 
-    <!-- Background color for the family members category -->
-    <color name="category_family">#379237</color>
+    <!-- Background color for the attraction category -->
+    <color name="category_attraction">#003b32</color>
 
-    <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
+    <!-- Background color for the events category -->
+    <color name="category_event">#9b3c2e</color>
 
-    <!-- Background color for the phrases category -->
-    <color name="category_phrases">#16AFCA</color>
+    <!-- Background color for the restaurants category -->
+    <color name="category_restaurant">#007261</color>
 
-
+    <!-- Background color for the accommodations category -->
+    <color name="category_accommodation">#c79e42</color>
 </resources>
