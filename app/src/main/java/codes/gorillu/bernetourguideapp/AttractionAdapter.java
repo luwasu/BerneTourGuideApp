@@ -8,13 +8,18 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.core.content.ContextCompat;
+
 import java.util.ArrayList;
 
 public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
+    private int mColorResourceId;
 
-    public AttractionAdapter(Activity context, ArrayList<Attraction> localAttraction) {
+
+    public AttractionAdapter(Activity context, ArrayList<Attraction> localAttraction, int colorResourceId) {
         super(context, 0, localAttraction);
+        mColorResourceId = colorResourceId;
     }
 
     @Override
@@ -40,6 +45,13 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
 
         ImageView imageView = listItemView.findViewById(R.id.iv_attraction_image);
         imageView.setImageDrawable(currentAttraction.getImageID());
+
+        // Set the theme color for the list item
+        View textContainer = listItemView.findViewById(R.id.text_container);
+        // Find the color that the resource ID maps to
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        // Set the background color of the text container View
+        textContainer.setBackgroundColor(color);
 
         return listItemView;
     }

@@ -35,7 +35,7 @@ public class EventFragment extends Fragment {
             event.add(newAttraction);
         }
 
-        AttractionAdapter adapter = new AttractionAdapter(getActivity(), event);
+        AttractionAdapter adapter = new AttractionAdapter(getActivity(), event, R.color.category_numbers);
 
         ListView listView = rootView.findViewById(R.id.list_local_attraction);
 
