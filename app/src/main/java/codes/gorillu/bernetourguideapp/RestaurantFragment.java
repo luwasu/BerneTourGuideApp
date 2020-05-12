@@ -37,7 +37,7 @@ public class RestaurantFragment extends Fragment {
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), restaurant);
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list_local_attraction);
+        ListView listView = rootView.findViewById(R.id.list_local_attraction);
 
         listView.setAdapter(adapter);
 
