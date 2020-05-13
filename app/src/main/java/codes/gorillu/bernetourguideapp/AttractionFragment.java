@@ -25,9 +25,9 @@ public class AttractionFragment extends Fragment {
         final ArrayList<Attraction> accommodations = new ArrayList<>();
 
         final String[] accommodationNames = getResources().getStringArray(R.array.list_accommodation_names);
-        final String[] accommodationAddresses = getResources().getStringArray(R.array.list_accomodation_addresses);
-        final String[] accommodationOpeningHours = getResources().getStringArray(R.array.list_accomodation_opening_hours);
-        final TypedArray accommodationImages = getResources().obtainTypedArray(R.array.list_accomodation_images);
+        final String[] accommodationAddresses = getResources().getStringArray(R.array.list_accommodation_addresses);
+        final String[] accommodationOpeningHours = getResources().getStringArray(R.array.list_accommodation_opening_hours);
+        final TypedArray accommodationImages = getResources().obtainTypedArray(R.array.list_accommodation_images);
 
         for (int id = 0; id != accommodationNames.length; ++id) {
             Attraction newAttraction = new Attraction(accommodationNames[id], accommodationAddresses[id],
