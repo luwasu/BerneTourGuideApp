@@ -1,146 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="list_attraction_names">
-        <item>Berne Attraction Title</item>
-        <item>Berne Attraction Title</item>
-        <item>Berne Attraction Title</item>
-        <item>Berne Attraction Title</item>
-        <item>Berne Attraction Title</item>
-        <item>Berne Attraction Title</item>
+        <item>Bern Bear Park</item>
+        <item>Art Museum</item>
+        <item>Swiss Parliament House</item>
+        <item>Historical Museum / Einstein Museum</item>
+        <item>Rose Garden</item>
+        <item>Swimming Pool Marzili</item>
     </string-array>
 
     <string-array name="list_attraction_addresses">
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
+        <item>3006 Bern, Grosser Muristalden 6</item>
+        <item>3000 Bern, Hodlerstrasse 8-12 </item>
+        <item>3005 Bern, Bundesplatz 3</item>
+        <item>3005 Bern, Helvetiaplatz 5</item>
+        <item>3006 Bern, Alter Aargauerstalden 31b</item>
+        <item>3005 Bern, Marzilistrasse 29</item>
     </string-array>
 
     <string-array name="list_attraction_opening_hours">
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 09:00-17:00</item>
+        <item>Opening Hours: 10:00-17:00</item>
+        <item>Opening Hours: 09:00-17:00</item>
+        <item>Opening Hours: 10:00-17:00</item>
+        <item>Opening Hours: Open 24 hours</item>
         <item>Opening Hours: 09:00-20:00</item>
     </string-array>
 
     <array name="list_attraction_images">
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
+        <item>@drawable/bear_park</item>
+        <item>@drawable/art_museum</item>
+        <item>@drawable/bundeshaus</item>
+        <item>@drawable/hist_museum</item>
+        <item>@drawable/rose_garden</item>
+        <item>@drawable/marzili</item>
     </array>
 
     <string-array name="list_event_names">
-        <item>Berne Event Title</item>
-        <item>Berne Event Title</item>
-        <item>Berne Event Title</item>
-        <item>Berne Event Title</item>
-        <item>Berne Event Title</item>
-        <item>Berne Event Title</item>
+        <item>Bern Grand Prix</item>
+        <item>Gurten Festival</item>
+        <item>Guided Beer Tour</item>
+        <item>Onion Market</item>
+        <item>Carnival</item>
+        <item>Swiss National Day</item>
     </string-array>
 
     <string-array name="list_event_addresses">
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
+        <item>3000 Bern</item>
+        <item>3000 Bern, Gurten</item>
+        <item>Bern city center</item>
+        <item>Bern city center</item>
+        <item>Bern city center</item>
+        <item>Bern city center</item>
     </string-array>
 
     <string-array name="list_event_opening_hours">
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
+        <item>22. May 2021</item>
+        <item>15.-18.July 2021</item>
+        <item>Season: All year</item>
+        <item>23. November 2020</item>
+        <item>18. - 20. February 2021</item>
+        <item>1. August 2020</item>
     </string-array>
 
     <array name="list_event_images">
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
+        <item>@drawable/gp</item>
+        <item>@drawable/gurten_festival</item>
+        <item>@drawable/beer_tour</item>
+        <item>@drawable/onion_market</item>
+        <item>@drawable/carnival</item>
+        <item>@drawable/national_day</item>
     </array>
 
     <string-array name="list_accommodation_names">
-        <item>Berne Accommodation Title</item>
-        <item>Berne Accommodation Title</item>
-        <item>Berne Accommodation Title</item>
-        <item>Berne Accommodation Title</item>
-        <item>Berne Accommodation Title</item>
-        <item>Berne Accommodation Title</item>
+        <item>Hotel Schweizerhof &amp; Spa</item>
+        <item>Hotel Savoy</item>
+        <item>Bellevue Palace</item>
+        <item>Hotel Alpenblick</item>
+        <item>The Bristol</item>
+        <item>Hotel Allegro Bern</item>
     </string-array>
 
     <string-array name="list_accommodation_addresses">
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
+        <item>3011 Bern, Bahnhofplatz 11</item>
+        <item>3011 Bern, Neuengasse 26</item>
+        <item>3011 Bern, Kochergasse 3</item>
+        <item>3013 Bern, Kasernenstrasse 29</item>
+        <item>3000 Bern, Schauplatzgasse 10</item>
+        <item>3000 Berne, Kornhausstrasse 3</item>
     </string-array>
 
     <string-array name="list_accommodation_opening_hours">
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: Open 24 hours</item>
+        <item>Opening Hours: Open 24 hours</item>
+        <item>Opening Hours: Open 24 hours</item>
+        <item>Opening Hours: Open 24 hours</item>
+        <item>Opening Hours: Open 24 hours</item>
+        <item>Opening Hours: Open 24 hours</item>
     </string-array>
 
     <array name="list_accommodation_images">
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
+        <item>@drawable/schweizerhof</item>
+        <item>@drawable/savoy</item>
+        <item>@drawable/bellevue</item>
+        <item>@drawable/alpenblick</item>
+        <item>@drawable/bristol</item>
+        <item>@drawable/allegro</item>
     </array>
 
     <string-array name="list_restaurant_names">
-        <item>Berne Restaurant Title</item>
-        <item>Berne Restaurant Title</item>
-        <item>Berne Restaurant Title</item>
-        <item>Berne Restaurant Title</item>
-        <item>Berne Restaurant Title</item>
-        <item>Berne Restaurant Title</item>
+        <item>Casa Novo</item>
+        <item>Klosterli Weincafe</item>
+        <item>Wein&amp;Sein mit Haerzbluet</item>
+        <item>Metzgerstuebli</item>
+        <item>Brasserie Obstberg</item>
+        <item>Haberbuni</item>
     </string-array>
 
     <string-array name="list_restaurant_addresses">
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Bern, Musterstr. 1</item>
-        <item>3000 Berne, Musterstr. 1</item>
+        <item>3011 Bern, Laeuferplatz 6</item>
+        <item>3013 Bern, Kloesterlistutz 16, </item>
+        <item>3011 Bern, Muenstergasse 50</item>
+        <item>3011 Bern, Muenstergasse 60</item>
+        <item>3006 Bern, Bantigerstrasse 18</item>
+        <item>3097 Bern, Koenizstrasse 175 Liebefeld</item>
     </string-array>
 
     <string-array name="list_restaurant_opening_hours">
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
-        <item>Opening Hours: 09:00-20:00</item>
+        <item>Opening Hours: 11:30-23:00</item>
+        <item>Opening Hours: 11:00-23:30</item>
+        <item>Opening Hours: 17:00-00:30</item>
+        <item>Opening Hours: 07:00-23:30</item>
+        <item>Opening Hours: 11:00-23:30</item>
+        <item>Opening Hours: 11:00-00:30</item>
     </string-array>
 
     <array name="list_restaurant_images">
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
-        <item>@drawable/bern</item>
+        <item>@drawable/casa_novo</item>
+        <item>@drawable/klosterli_weincafe</item>
+        <item>@drawable/weinsein</item>
+        <item>@drawable/metzgerstubli</item>
+        <item>@drawable/brasserie_obstberg</item>
+        <item>@drawable/haberbuni</item>
     </array>
 </resources>
