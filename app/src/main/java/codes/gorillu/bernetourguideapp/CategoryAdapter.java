@@ -8,22 +8,23 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-
+    /**
+     * Number of fragments pages to be displayed
+     */
     private static int NUM_ITEMS = 4;
 
 
     /**
      * Context of the app
      */
-
     private Context mContext;
 
 
     /**
      * Create a new {@link CategoryAdapter} object.
      *
-     * @param context         is the context of the app
      * @param fragmentManager is the fragment manager that will keep each fragment's state in the adapter
+     * @param context         is the context of the app
      */
 
     public CategoryAdapter(FragmentManager fragmentManager, Context context) {
@@ -35,8 +36,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Return the {@link Fragment} that should be displayed for the given page number.
      */
-
-
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
@@ -51,7 +50,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     }
 
-    // Returns total number of pages
+    /**
+     * Return the total number of pages.
+     */
     @Override
     public int getCount() {
         return NUM_ITEMS;
@@ -61,7 +62,6 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Return attraction fragment titles.
      */
-
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {

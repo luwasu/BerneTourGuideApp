@@ -20,7 +20,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/iv_attraction_image"
+                android:id="@+id/attraction_image"
                 style="@style/Image" />
 
             <LinearLayout
@@ -31,17 +31,17 @@
                 android:padding="@dimen/padding_normal">
 
                 <TextView
-                    android:id="@+id/tv_attraction_name"
+                    android:id="@+id/attraction_name"
                     style="@style/NameOfAttraction"
                     tools:text="Name" />
 
                 <TextView
-                    android:id="@+id/tv_attraction_address"
+                    android:id="@+id/attraction_address"
                     style="@style/Data"
                     tools:text="Address" />
 
                 <TextView
-                    android:id="@+id/tv_attraction_opening_hours"
+                    android:id="@+id/attraction_opening_hours"
                     style="@style/Data"
                     tools:text="Opening hours" />
 
