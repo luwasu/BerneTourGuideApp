@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Berne Tour Guide</string>
+    <string name="app_name">Bern Tour</string>
     <string name="accommodation">Accommodation</string>
     <string name="event">Events</string>
     <string name="restaurant">Restaurants</string>
     <string name="attraction">Attractions</string>
-
 </resources>

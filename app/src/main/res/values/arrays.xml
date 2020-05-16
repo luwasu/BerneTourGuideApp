@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+<!--These are the arrays of data that get pulled in to the list_items and are used for the within the Fragments-->
+
     <string-array name="list_attraction_names">
         <item>Bern Bear Park</item>
         <item>Art Museum</item>
